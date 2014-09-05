@@ -138,9 +138,9 @@ PRODUCT_COPY_FILES += \
     
 
 
-PRODUCT_NAME := full_libz500
-PRODUCT_DEVICE := libz500
-PRODUCT_MODEL := Sciaps LIBZ 500
+PRODUCT_NAME := full_libz100
+PRODUCT_DEVICE := libz100
+PRODUCT_MODEL := Sciaps LIBZ 100
 
 PRODUCT_PROPERTY_OVERRIDES += \
         ro.opengles.version=131072 \

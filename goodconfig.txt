@@ -53,7 +53,8 @@ rootfs_mtdblock_nand=5
 # to use dvi output in kernel set 'display=dvi' and
 # dvi_resolution to '640x480-60' '800x600-60' or '1024x768-60'
 
-display=nhd50800480tf-atxl
+display=nhd43480272ef-atxl
+#display=nhd50800480tf-atxl
 #display=edt_etm0700G0dh6
 #dvi_resolution=1024x768-60
 

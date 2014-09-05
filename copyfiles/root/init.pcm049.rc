@@ -78,7 +78,7 @@ on boot
 
 
 on fs
-	mount_all /fstab.libz500
+	mount_all /fstab.libz100
 	
 	# change permissions for ION driver
     chmod 0777 /dev/ion
