@@ -125,6 +125,7 @@ PRODUCT_PACKAGES += \
     LIBZAlloyMatch \
     LIBZHome \
     LIBZFactoryMode \
+    LIBZUpdater \
     LIBZAlloySpec
 
 PRODUCT_COPY_FILES += \
