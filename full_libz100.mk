@@ -115,6 +115,7 @@ PRODUCT_PACKAGES += \
     wilink7.sh \
     busybox \
     playxsvf \
+    picprogram \
     com.sciaps.libzhardware \
     LIBZService \
     libserviceJava_jni \
