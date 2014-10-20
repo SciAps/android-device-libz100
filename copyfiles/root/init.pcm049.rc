@@ -1,3 +1,4 @@
+import init.pcm049.usb.rc
 import init.pcm049.wifi.rc
 
 on init

@@ -101,9 +101,16 @@ PRODUCT_PACKAGES += \
 	tinycap \
 	libaudioutils
 
+#USB accessory
+PRODUCT_PACKAGES += \
+    com.android.future.usb.accessory
+
 # Enable AAC 5.1 decode (decoder)
 PRODUCT_PROPERTY_OVERRIDES += \
 	media.aac_51_output_enabled=true
+
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    persist.sys.usb.config=mtp
 
 #Sensors - Accelerometer
 #PRODUCT_PACKAGES += \
@@ -133,6 +140,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.xml:system/etc/permissions/android.hardware.camera.xml \
     frameworks/native/data/etc/android.hardware.wifi.xml:system/etc/permissions/android.hardware.wifi.xml \
     frameworks/native/data/etc/android.hardware.bluetooth.xml:system/etc/permissions/android.hardware.bluetooth.xml \
+    frameworks/native/data/etc/android.hardware.usb.accessory.xml:system/etc/permissions/android.hardware.usb.accessory.xml \
     device/common/gps/gps.conf_US:system/etc/gps.conf
 
 
