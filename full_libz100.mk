@@ -146,11 +146,16 @@ PRODUCT_COPY_FILES += \
 
 #frameworks/native/data/etc/android.hardware.sensor.accelerometer.xml:system/etc/permissions/android.hardware.sensor.accelerometer.xml \
     
+PRODUCT_AAPT_CONFIG := normal mdpi hdpi
+PRODUCT_AAPT_PREF_CONFIG := mdpi
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sf.lcd_density=140
 
 PRODUCT_NAME := full_libz100
 PRODUCT_DEVICE := libz100
 PRODUCT_MODEL := Sciaps LIBZ 100
+PRODUCT_MANUFACTURER := Sciaps
 
 PRODUCT_PROPERTY_OVERRIDES += \
         ro.opengles.version=131072 \
