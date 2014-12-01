@@ -77,6 +77,8 @@ on boot
 	chown system system /sys/bus/i2c/drivers/adxl34x/4-0053/disable
 	chown system system /sys/bus/i2c/drivers/adxl34x/4-0053/rate
 
+	write /sys/power/wake_lock init.pcm049.rc_no_suspend
+
 
 on fs
 	mount_all /fstab.libz100
