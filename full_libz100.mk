@@ -117,6 +117,11 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 #	sensors.pcm049 \
 #	sensor.test
 
+# FPGA Version Check
+PRODUCT_PACKAGES += \
+	fpga.pcm049 \
+	board-omap4ksp5012-version.ko
+
 PRODUCT_PACKAGES += \
     lights.pcm049 \
     wilink7.sh \
